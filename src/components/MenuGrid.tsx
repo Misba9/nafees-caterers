@@ -1,4 +1,3 @@
-import React from 'react';
 import { SectionHeading } from './ui/SectionHeading';
 import { mandiMenu, biryaniMenu, extrasMenu } from '../data/menuData';
 import { motion } from 'framer-motion';

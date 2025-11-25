@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapPin, Phone, Mail, Clock, ChefHat } from 'lucide-react';
 
 export const Footer = () => {
   return (

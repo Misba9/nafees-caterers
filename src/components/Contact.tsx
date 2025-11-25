@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
+import { SectionHeading } from './ui/SectionHeading';
+import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 
 export const Contact = () => {
   const whatsappLink = "https://wa.me/916305403421?text=Hi%20I%20want%20to%20place%20an%20order%20from%20Nafees%20Caterers%20&%20Biryani%20House";

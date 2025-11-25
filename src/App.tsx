@@ -1,9 +1,9 @@
-import React from 'react';
 import { SEO } from './components/SEO';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
-import { MenuGrid } from './components/MenuGrid';
+// import { MenuGrid } from './components/MenuGrid';
+import { UnifiedMandiMenu } from './components/UnifiedMandiMenu';
 import { MenuAccordion } from './components/MenuAccordion';
 import { Catering } from './components/Catering';
 import { Contact } from './components/Contact';
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <MenuGrid />
+      <UnifiedMandiMenu />
       <MenuAccordion />
       <Catering />
       <Contact />

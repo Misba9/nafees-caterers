@@ -14,7 +14,7 @@ export const Hero = () => {
           src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=2574&auto=format&fit=crop" 
           alt="Authentic Hyderabadi Biryani and Mandi spread at Nafees Caterers"
           loading="eager"
-          fetchpriority="high"
+          fetchPriority="high"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-brand-red/90"></div>
