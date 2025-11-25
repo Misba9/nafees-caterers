@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { SectionHeading } from './ui/SectionHeading';
-import { UtensilsCrossed, Users, ChefHat, Calendar } from 'lucide-react';
+import { Users, ChefHat } from 'lucide-react';
 
 export const Catering = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { accordionCategories } from '../data/menuData';
 import { ChevronDown, ChevronUp, Leaf, Plus, Minus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
