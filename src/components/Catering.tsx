@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { SectionHeading } from './ui/SectionHeading';
 import { Users, ChefHat } from 'lucide-react';
 
 export const Catering = () => {

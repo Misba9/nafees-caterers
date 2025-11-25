@@ -1,4 +1,3 @@
-import { SectionHeading } from './ui/SectionHeading';
 import { MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
 
 export const Contact = () => {
