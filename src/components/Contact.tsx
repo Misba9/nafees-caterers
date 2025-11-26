@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Clock, MessageCircle, Mail } from 'lucide-react';
 
 export const Contact = () => {
   const whatsappLink = "https://wa.me/916305403421?text=Hi%20I%20want%20to%20place%20an%20order%20from%20Nafees%20Caterers%20&%20Biryani%20House";
@@ -38,6 +38,18 @@ export const Contact = () => {
 
               <div className="flex items-start gap-4">
                 <div className="bg-brand-red/10 p-3 rounded-full">
+                  <Mail className="text-brand-red" size={24} />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-800">Email</h3>
+                  <p className="text-gray-600">
+                    <a href="mailto:info@nafeescaterers.in" className="hover:text-brand-red" aria-label="Email us at info@nafeescaterers.in">info@nafeescaterers.in</a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="bg-brand-red/10 p-3 rounded-full">
                   <Clock className="text-brand-red" size={24} />
                 </div>
                 <div>
@@ -50,7 +62,7 @@ export const Contact = () => {
                 href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                                aria-label="Order now on WhatsApp"
+                aria-label="Order now on WhatsApp"
                 className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors shadow-md w-full md:w-auto justify-center"
               >
                 <MessageCircle size={20} />
@@ -68,7 +80,7 @@ export const Contact = () => {
               style={{ border: 0 }} 
               allowFullScreen={true} 
               loading="lazy"
-                          title="Location map of Nafees Caterers & Biryani House"
+              title="Location map of Nafees Caterers & Biryani House"
             ></iframe>
           </div>
 
